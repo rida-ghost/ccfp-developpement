@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+    </style>
+</head>
+<body>
+<form class="contact-form">
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Your name">
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="Your email">
+  
+  <label for="message">Message:</label>
+  <textarea id="message" placeholder="Your message"></textarea>
+  
+  <button type="submit" class="btn">Submit</button>
+</form>
+
+      
+</body>
+</html>
